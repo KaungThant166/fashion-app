@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hip Hop Street Ware</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Condensed&family=Roboto+Mono:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/fashion.css" />
+    <link rel="stylesheet" href="./css/mediaquery.css" />
+  </head>
+
+  <body>
+    <div class="mainContainer">
+      <!-- nav---section -->
+      <nav id="navbar-container">
+        <div class="nav-container">
+          <div class="navbar-brand">
+            <a href="">HIP HOP FASHION</a>
+            <ul class="mobile-icon">
+              <li class="icon-list">
+                <i class="fa-sharp fa-regular fa-user fa-beat-fade"></i>
+              </li>
+              <li class="icon-list">
+                <i class="fa-sharp fa-regular fa-heart"></i>
+              </li>
+              <li class="icon-list">
+                <i class="fa-solid fa-bag-shopping"></i>
+              </li>
+            </ul>
+            <a class="humburger" id="menu"><i class="fa-solid fa-bars"></i></a>
+          </div>
+
+          <ul class="navbar-menu" id="navbar_menu">
+            <li><a href="#slider">Home</a></li>
+            <li><a href="#collection">Collection</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#blog">Blog</a></li>
+          </ul>
+
+          <ul class="navbar-icon">
+            <li class="search-box">
+              <input type="text" placeholder="Search" class="searchTag" />
+              <button class="search-btn">
+                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+              </button>
+            </li>
+            <li class="icon-list">
+              <i class="fa-sharp fa-regular fa-user fa-beat-fade"></i>
+            </li>
+            <li class="icon-list">
+              <i class="fa-sharp fa-regular fa-heart"></i>
+            </li>
+            <li class="icon-list"><i class="fa-solid fa-bag-shopping"></i></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- slider--sectionn -->
+      <section id="slider">
+        <div class="slider-container">
+          <img
+            src="https://nextluxury.com/wp-content/uploads/hip-hop-fashion.jpg"
+            alt=""
+            id="slider_image1"
+            class="slider active"
+          />
+
+          <img
+            src="https://cf.ltkcdn.net/womens-fashion/images/orig/316382-1600x1067-hip-hop-style.jpg"
+            alt=""
+            id="slider_image2"
+            class="slider"
+          />
+
+          <img
+            src="https://hespokestyle.com/wp-content/uploads/2022/02/marc-jacobs-fall-2017-womens-hip-hop-fashion.jpg"
+            alt=""
+            id="slider_image3"
+            class="slider"
+          />
+
+          <div class="slider-button">
+            <button class="prev" id="prev_btn">
+              <i class="fa-solid fa-angle-left"></i> Prev
+            </button>
+            <button class="next" id="next_btn">
+              Next<i class="fa-solid fa-angle-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- arrival--section -->
+      <section id="new-arrival">
+        <div class="arrival-container">
+          <h2 class="textcenter mb-30">New Arrival</h2>
+          <h3 class="textcenter mb-30">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </h3>
+          <div class="cards">
+            <div class="card">
+              <img
+                src="https://cms-cdn.thesolesupplier.co.uk/2023/02/nike-x-stussy-graphic-tee-white-full-image_w672_h672.jpg.webp"
+                alt=""
+              />
+              <div class="cards-content">
+                <h4 class="textcenter">Stussy</h4>
+                <div class="rating textcenter">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-alt"></i>
+                </div>
+                <h3 class="textcenter">74$</h3>
+                <div class="actions">
+                  <span><i class="fa-solid fa-heart"></i></span>
+                  <span><i class="fa-sharp fa-solid fa-bag-shopping"></i></span>
+                  <span
+                    ><a href="./productsdetail.html" class="textnone"
+                      ><i class="fa-solid fa-magnifying-glass"></i></a
+                  ></span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://a0.cdn.hhv.de/items/images/generated/475x475/00995/995920/3-carhartt-wip-simple-pant-coventry-corduroy-9-7-oz-plant-rinsed.webp"
+                alt=""
+              />
+              <div class="cards-content">
+                <h4 class="textcenter">Carhartt</h4>
+                <div class="rating textcenter">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-alt"></i>
+                </div>
+                <h3 class="textcenter">89$</h3>
+                <div class="actions">
+                  <span><i class="fa-solid fa-heart"></i></span>
+                  <span><i class="fa-sharp fa-solid fa-bag-shopping"></i></span>
+                  <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                src="https://www.solebox.com/dw/image/v2/BDCB_PRD/on/demandware.static/-/Sites-solebox-master-de/default/dwb4f6a2e6/2201073_PS8.jpg?sw=450&sh=450&sm=fit&sfrm=png"
+                alt=""
+              />
+              <div class="cards-content">
+                <h4 class="textcenter">Bape Clothing</h4>
+                <div class="rating textcenter">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-alt"></i>
+                </div>
+                <h3 class="textcenter">458$</h3>
+                <div class="actions">
+                  <span><i class="fa-solid fa-heart"></i></span>
+                  <span><i class="fa-sharp fa-solid fa-bag-shopping"></i></span>
+                  <span
+                    ><a href="./productsdetail.html" class="textnone"
+                      ><i class="fa-solid fa-magnifying-glass"></i></a
+                  ></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                src="https://images.asos-media.com/products/the-north-face-extreme-pile-full-zip-jacket-in-black/203200236-1-black?$n_640w$&wid=513&fit=constrain"
+                alt=""
+              />
+              <div class="cards-content">
+                <h4 class="textcenter">The North Face</h4>
+                <div class="rating textcenter">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-alt"></i>
+                </div>
+                <h3 class="textcenter">369$</h3>
+                <div class="actions">
+                  <span><i class="fa-solid fa-heart"></i></span>
+                  <span><i class="fa-sharp fa-solid fa-bag-shopping"></i></span>
+                  <span
+                    ><a href="./productsdetail.html" class="textnone"
+                      ><i class="fa-solid fa-magnifying-glass"></i></a
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- collection---section -->
+      <section id="collection">
+        <div class="collection-container">
+          <div class="left">
+            <div class="left-card">
+              <img
+                src="https://publish.one37pm.net/wp-content/uploads/2020/03/80shiphopfashion-mobile.jpg?resize=720%2C780"
+                alt=""
+              />
+              <div class="left-content">
+                <h3>WATCH COLLECTIOIN</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem
+                  ipsum dolor.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="right-card">
+              <img
+                src="https://media.istockphoto.com/id/108271016/photo/fashion-of-the-1980s-amp-90s-with-boombox.jpg?s=612x612&w=0&k=20&c=yHT_YW8uf4XrYPT8C3cSLR7wf-h8nh63d5l_H7wRFMY="
+                alt=""
+              />
+              <div class="right-content">
+                <h3>SHOE COLLECTIOIN</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem
+                  ipsum dolor.
+                </p>
+              </div>
+            </div>
+            <div class="right-card">
+              <img
+                src="https://hips.hearstapps.com/hmg-prod/images/tony-rome-black-64d4f7d760b1d.jpg?crop=1.00xw:0.756xh;0,0.0897xh&resize=640:*"
+                alt=""
+              />
+              <div class="right-content">
+                <h3>CLOTHE COLLECTIOIN</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem
+                  ipsum dolor.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- products--section -->
+      <section id="products">
+        <div class="arrival-container">
+          <h2 class="textcenter mb-30">Popular Products</h2>
+          <h3 class="textcenter mb-30">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </h3>
+          <div class="filterable-btns">
+            <button class="active" id="all-btn">All</button>
+            <button id="cloth-btn">Cloth</button>
+            <button id="shoe-btn">Shoe</button>
+            <button id="watch-btn">Watch</button>
+          </div>
+          <div class="cards">
+            <div class="card pcard watch">
+              <img
+                src="https://cdn.anscommerce.com/catalog/brandstore/johnson/17_7_20/Sale.jpg"
+                alt=""
+              />
+              <div class="cards-content">
+                <h4 class="textcenter">Products</h4>
+                <div class="rating textcenter">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-alt"></i>
+                </div>
+                <h3 class="textcenter">74$</h3>
+                <div class="actions">
+                  <span><i class="fa-solid fa-heart"></i></span>
+                  <span><i class="fa-sharp fa-solid fa-bag-shopping"></i></span>
+                  <span
+                    ><a href="./productsdetail.html" class="textnone"
+                      ><i class="fa-solid fa-magnifying-glass"></i></a
+                  ></span>
+                </div>
+              </div>
+              <!-- <a href="./productsdetail.html" class="textnone"></a> -->
+            </div>
+            <div class="card pcard cloth">
+              <img
+                src="https://scene7.zumiez.com/is/image/zumiez/product_main_medium/Primitive-x-Marvel-by-Paul-Jackson-Venom-Black-T-Shirt-_365286-alt5-US.jpg"
+                alt=""
+              />
+              <div class="cards-content">
+                <h4 class="textcenter">Products</h4>
+                <div class="rating textcenter">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-alt"></i>
+                </div>
+                <h3 class="textcenter">89$</h3>
+                <div class="actions">
+                  <span><i class="fa-solid fa-heart"></i></span>
+                  <span><i class="fa-sharp fa-solid fa-bag-shopping"></i></span>
+                  <span
+                    ><a href="./productsdetail.html" class="textnone"
+                      ><i class="fa-solid fa-magnifying-glass"></i> </a
+                  ></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="card pcard watch">
+              <img
+                src="https://static.alaneesqatar.qa/2021/11/Aukey-LS02-Smart-Watch-blue-1.png?tr=w-395,q-80"
+                alt=""
+              />
+              <div class="cards-content">
+                <h4 class="textcenter">Products</h4>
+                <div class="rating textcenter">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-alt"></i>
+                </div>
+                <h3 class="textcenter">458$</h3>
+                <div class="actions">
+                  <span><i class="fa-solid fa-heart"></i></span>
+                  <span><i class="fa-sharp fa-solid fa-bag-shopping"></i></span>
+                  <span
+                    ><a href="./productsdetail.html" class="textnone"
+                      ><i class="fa-solid fa-magnifying-glass"></i></a
+                  ></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="card pcard cloth">
+              <img
+                src="https://media.gq-magazine.co.uk/photos/6052167a95d320e638a93f9e/master/w_1600%2Cc_limit/170321_Marvel_05.jpg"
+                alt=""
+              />
+              <div class="cards-content">
+                <h4 class="textcenter">Products</h4>
+                <div class="rating textcenter">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-alt"></i>
+                </div>
+                <h3 class="textcenter">369$</h3>
+                <div class="actions">
+                  <span><i class="fa-solid fa-heart"></i></span>
+                  <span><i class="fa-sharp fa-solid fa-bag-shopping"></i></span>
+                  <span
+                    ><a href="./productsdetail.html" class="textnone"
+                      ><i class="fa-solid fa-magnifying-glass"></i></a
+                  ></span>
+                </div>
+              </div>
+            </div>
+            <div class="card pcard shoe">
+              <img
+                src="https://s.yimg.com/ny/api/res/1.2/rWRZ.jJQ2lZ2BXE85du9_w--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04NTY-/https://s.yimg.com/os/creatr-images/2019-06/5e9fa860-8cbd-11e9-8faf-972f7cf8dabb"
+                alt=""
+              />
+              <div class="cards-content">
+                <h4 class="textcenter">Products</h4>
+                <div class="rating textcenter">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-alt"></i>
+                </div>
+                <h3 class="textcenter">369$</h3>
+                <div class="actions">
+                  <span><i class="fa-solid fa-heart"></i></span>
+                  <span><i class="fa-sharp fa-solid fa-bag-shopping"></i></span>
+                  <span
+                    ><a href="./productsdetail.html" class="textnone"
+                      ><i class="fa-solid fa-magnifying-glass"></i></a
+                  ></span>
+                </div>
+              </div>
+            </div>
+            <div class="card pcard shoe">
+              <img
+                src="https://www.fashionbeans.com/wp-content/uploads/2019/05/best-air-jordans.jpg"
+                alt=""
+              />
+              <div class="cards-content">
+                <h4 class="textcenter">Products</h4>
+                <div class="rating textcenter">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-alt"></i>
+                </div>
+                <h3 class="textcenter">369$</h3>
+                <div class="actions">
+                  <span><i class="fa-solid fa-heart"></i></span>
+                  <span><i class="fa-sharp fa-solid fa-bag-shopping"></i></span>
+                  <span
+                    ><a href="./productsdetail.html" class="textnone"
+                      ><i class="fa-solid fa-magnifying-glass"></i></a
+                  ></span>
+                </div>
+              </div>
+            </div>
+            <div class="card pcard cloth">
+              <img
+                src="https://cdn-img.prettylittlething.com/a/a/a/e/aaae815c5944c167477c3b66a1afbadd8911909f_cmy0040_1.jpg"
+                alt=""
+              />
+              <div class="cards-content">
+                <h4 class="textcenter">Products</h4>
+                <div class="rating textcenter">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-alt"></i>
+                </div>
+                <h3 class="textcenter">369$</h3>
+                <div class="actions">
+                  <span><i class="fa-solid fa-heart"></i></span>
+                  <span><i class="fa-sharp fa-solid fa-bag-shopping"></i></span>
+                  <span
+                    ><a href="./productsdetail.html" class="textnone"
+                      ><i class="fa-solid fa-magnifying-glass"></i></a
+                  ></span>
+                </div>
+              </div>
+            </div>
+            <div class="card pcard cloth">
+              <img
+                src="https://cdn-img.prettylittlething.com/1/e/8/4/1e849846c7bd05ebce1bbe35d899e5071647d470_cms8462_1.jpg"
+                alt=""
+              />
+              <div class="cards-content">
+                <h4 class="textcenter">Products</h4>
+                <div class="rating textcenter">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-alt"></i>
+                </div>
+                <h3 class="textcenter">369$</h3>
+                <div class="actions">
+                  <span><i class="fa-solid fa-heart"></i></span>
+                  <span><i class="fa-sharp fa-solid fa-bag-shopping"></i></span>
+                  <span
+                    ><a href="./productsdetail.html" class="textnone"
+                      ><i class="fa-solid fa-magnifying-glass"></i></a
+                  ></span>
+                </div>
+              </div>
+            </div>
+            <div class="card pcard cloth">
+              <img
+                src="https://bottega-veneta.dam.kering.com/m/cc52601a69a5be7/Thumbnail-764281V3S918975_A.jpg?v=4"
+                alt=""
+              />
+              <div class="cards-content">
+                <h4 class="textcenter">Products</h4>
+                <div class="rating textcenter">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-alt"></i>
+                </div>
+                <h3 class="textcenter">369$</h3>
+                <div class="actions">
+                  <span><i class="fa-solid fa-heart"></i></span>
+                  <span><i class="fa-sharp fa-solid fa-bag-shopping"></i></span>
+                  <span
+                    ><a href="./productsdetail.html" class="textnone"
+                      ><i class="fa-solid fa-magnifying-glass"></i></a
+                  ></span>
+                </div>
+              </div>
+            </div>
+            <div class="card pcard cloth">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRpHX2AbWn1LJELg00_wpjemglwA1whRqEwA&usqp=CAU"
+                alt=""
+              />
+              <div class="cards-content">
+                <h4 class="textcenter">Products</h4>
+                <div class="rating textcenter">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-alt"></i>
+                </div>
+                <h3 class="textcenter">369$</h3>
+                <div class="actions">
+                  <span><i class="fa-solid fa-heart"></i></span>
+                  <span><i class="fa-sharp fa-solid fa-bag-shopping"></i></span>
+                  <span
+                    ><a href="./productsdetail.html" class="textnone"
+                      ><i class="fa-solid fa-magnifying-glass"></i></a
+                  ></span>
+                </div>
+              </div>
+            </div>
+            <div class="card pcard shoe">
+              <img
+                src="https://images.asos-media.com/products/public-desire-midnight-bow-heel-shoes-in-black/201245923-4?$n_640w$&wid=513&fit=constrain"
+                alt=""
+              />
+              <div class="cards-content">
+                <h4 class="textcenter">Products</h4>
+                <div class="rating textcenter">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-alt"></i>
+                </div>
+                <h3 class="textcenter">369$</h3>
+                <div class="actions">
+                  <span><i class="fa-solid fa-heart"></i></span>
+                  <span><i class="fa-sharp fa-solid fa-bag-shopping"></i></span>
+                  <span
+                    ><a href="./productsdetail.html" class="textnone"
+                      ><i class="fa-solid fa-magnifying-glass"></i></a
+                  ></span>
+                </div>
+              </div>
+            </div>
+            <div class="card pcard shoe">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcY38h8NC-RPOjVuYi8oTlWQvrjpYtO8ywYw&usqp=CAU"
+                alt=""
+              />
+              <div class="cards-content">
+                <h4 class="textcenter">products</h4>
+                <div class="rating textcenter">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-alt"></i>
+                </div>
+                <h3 class="textcenter">369$</h3>
+                <div class="actions">
+                  <span><i class="fa-solid fa-heart"></i></span>
+                  <span><i class="fa-sharp fa-solid fa-bag-shopping"></i></span>
+                  <span
+                    ><a href="./productsdetail.html" class="textnone"
+                      ><i class="fa-solid fa-magnifying-glass"></i></a
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---blog--section -->
+      <section id="blog">
+        <div class="blog-container">
+          <h2 class="textcenter mb-30">Latest Fashion</h2>
+          <h3 class="textcenter mb-30">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </h3>
+          <div class="blog-cards">
+            <div class="blog-card">
+              <img
+                src="https://storage.googleapis.com/afs-prod/media/f0b114c25e2343a289a269a75548321b/2000.jpeg"
+                alt=""
+              />
+              <div class="blog-content">
+                <h3>Blog Title-Balenciaga</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                  repellat facere sed praesentium nobis, veritatis odio vel, aut
+                  quidem suscipit id libero totam illum harum recusandae eum
+                  provident dolor nihil!
+                </p>
+                <span>12 December</span>
+              </div>
+            </div>
+            <div class="blog-card">
+              <img
+                src="https://www.billboard.com/wp-content/uploads/2023/05/02-Travis-Scott-cr-THIBAUT-GREVET-billboard-1548.jpg"
+                alt=""
+              />
+              <div class="blog-content">
+                <h3>Blog Title-Nike</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                  repellat facere sed praesentium nobis, veritatis odio vel, aut
+                  quidem suscipit id libero totam illum harum recusandae eum
+                  provident dolor nihil!
+                </p>
+                <span>12 December</span>
+              </div>
+            </div>
+            <div class="blog-card">
+              <img
+                src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fwp-content%2Fblogs.dir%2F6%2Ffiles%2F2021%2F10%2Fblackpink-jennie-chanel-spring-summer-2022-paris-fashion-week-front-row-outfits-2.jpg?cbr=1&q=90"
+                alt=""
+                style="object-position: 100% 10%"
+              />
+              <div class="blog-content">
+                <h3>Blog Title-CHANEL</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                  repellat facere sed praesentium nobis, veritatis odio vel, aut
+                  quidem suscipit id libero totam illum harum recusandae eum
+                  provident dolor nihil!
+                </p>
+                <span>12 December</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- new--letter section -->
+      <section id="new-letter">
+        <div class="newletter-container">
+          <h2 class="textcenter mb-30">Subscribe To Our News Letter</h2>
+          <h3 class="textcenter mb-30">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </h3>
+          <form action="">
+            <input type="text" placeholder="email" />
+            <button>Subscribe</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- ---footer-- -->
+      <footer id="footer-section">
+        <div class="footer-container">
+          <ul>
+            <li>
+              <h4>About us</h4>
+            </li>
+            <li>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti assumenda facere ab quos est odit perferendis.
+              </p>
+            </li>
+            <li>
+              <img
+                src="https://d28wu8o6itv89t.cloudfront.net/images/mastercardlogopng-1579603310730.png"
+                alt=""
+              />
+              <img
+                src="https://logowik.com/content/uploads/images/visa-payment-card1873.jpg"
+                alt=""
+              />
+              <img
+                src="https://www.kbzpay.com/wp-content/uploads/sites/9/2020/07/og-kbzpay.png"
+                alt=""
+              />
+              <img
+                src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/9d/a7/32/9da73221-351b-2ce4-5168-d5a2649bff78/AppIcon-0-0-1x_U007emarketing-0-10-0-0-85-220.png/1200x630wa.png"
+                alt=""
+              />
+            </li>
+          </ul>
+          <ul class="links">
+            <li>
+              <h4>Useful links</h4>
+            </li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Collection</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Blog</a></li>
+          </ul>
+          <ul>
+            <li>
+              <h4>Contacts Info</h4>
+            </li>
+            <li>streetwear@gmail.com</li>
+            <li>09452345344/09966525767</li>
+            <li class="social-medias">
+              <a href=""><i class="fab fa-facebook"></i></a>
+              <a href=""><i class="fab fa-youtube"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script src="./js/fashion.js"></script>
+    <script src="./js/fashion2.js"></script>
+  </body>
+</html>

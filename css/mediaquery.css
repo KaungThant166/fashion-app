@@ -1,0 +1,89 @@
+@media (max-width: 800px) {
+    .navbar-icon {
+        display: none;
+    }
+    .nav-container {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        transition: all 0.5s;
+        /* line-height: 65px; */
+        /* overflow: hidden; */
+    }
+    .nav-container .navbar-menu {
+        width: 100%;
+        padding: 10px 0;
+        display: none;
+        flex-direction: column;
+        transition: all 0.5s;
+    }
+    .nav-container .navbar-menu.active {
+        display: block;
+        transition: all 0.5s ease;
+    }
+    .nav-container .navbar-menu li {
+        width: 100%;
+        padding: 10px;
+    }
+    .navbar-menu li:hover {
+        background-color: rgba(250, 0, 0, 0.8);
+    }
+    .navbar-brand {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar-brand .mobile-icon {
+        display: block;
+    }
+    .navbar-brand .mobile-icon li {
+        padding: 0 10px;
+        user-select: none;
+    }
+    .navbar-brand a,
+    .navbar-brand .mobile-icon {
+        display: flex;
+    }
+    .navbar-brand .humburger {
+        font-size: 24px;
+        display: block;
+    }
+    .arrival-container .cards .card {
+        flex-basis: 40%;
+    }
+    .collection-container {
+        flex-direction: column;
+    }
+    /* blog */
+    .blog-cards {
+        flex-direction: column;
+    }
+    /* footer section */
+    #footer-section .footer-container {
+        flex-direction: column;
+    }
+    .left .left-card .left-content,
+    .right-content {
+        width: 100%;
+    }
+    #product-detail {
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+    #product-detail .detail-container {
+        flex-direction: column;
+    }
+    #product-detail .detail-container .image-container,
+    #product-detail .detail-container .detail-content {
+        width: 100%;
+    }
+}
+
+@media (max-width:600px) {
+    .arrival-container .cards .card {
+        flex-basis: 90%;
+    }
+}
